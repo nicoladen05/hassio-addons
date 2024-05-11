@@ -12,6 +12,7 @@ ports:
 ports_description:
   25565/tcp: Minecraft Server Port
 options:
+  TYPE: VANILLA
   VERSION: LATEST
   SERVER_NAME: "HAMC Java Server"
   MOTD: "Greetings from Home Assistant"
@@ -30,11 +31,13 @@ options:
   VIEW_DISTANCE: 10
   ONLINE_MODE: true
   MEMORY: 1G
+  USE_AIKAR_FLAGS: true
   ANNOUNCE_PLAYER_ACHIEVEMENTS: true
   ENABLE_COMMAND_BLOCK: false
   FORCE_GAMEMODE: false
   MAX_BUILD_HEIGHT: 256
 schema:
+  TYPE: str
   VERSION: str
   SERVER_NAME: str
   MOTD: str
@@ -53,6 +56,7 @@ schema:
   VIEW_DISTANCE: int
   ONLINE_MODE: bool
   MEMORY: str
+  USE_AIKAR_FLAGS: bool
   ANNOUNCE_PLAYER_ACHIEVEMENTS: bool
   ENABLE_COMMAND_BLOCK: bool
   FORCE_GAMEMODE: bool
