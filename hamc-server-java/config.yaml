@@ -35,7 +35,8 @@ options:
   ANNOUNCE_PLAYER_ACHIEVEMENTS: true
   ENABLE_COMMAND_BLOCK: false
   FORCE_GAMEMODE: false
-  MAX_BUILD_HEIGHT: 256
+  WORLD: ""
+  FORCE_WORLD_COPY: false
 schema:
   TYPE: str
   VERSION: str
@@ -60,7 +61,8 @@ schema:
   ANNOUNCE_PLAYER_ACHIEVEMENTS: bool
   ENABLE_COMMAND_BLOCK: bool
   FORCE_GAMEMODE: bool
-  MAX_BUILD_HEIGHT: int
+  WORLD: str
+  FORCE_WORLD_COPY: bool
 map:
   - addons:rw
 environment:
