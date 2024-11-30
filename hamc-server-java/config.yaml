@@ -12,7 +12,7 @@ ports:
 ports_description:
   25565/tcp: Minecraft Server Port
 map:
-  - addons:rw
+  - data:rw
 options:
   TYPE: VANILLA
   VERSION: LATEST
