@@ -37,6 +37,7 @@ options:
   FORCE_GAMEMODE: false
   WORLD: ""
   FORCE_WORLD_COPY: false
+  PACKWIZ_URL: ""
 schema:
   TYPE: str
   VERSION: str
@@ -63,6 +64,7 @@ schema:
   FORCE_GAMEMODE: bool
   WORLD: str
   FORCE_WORLD_COPY: bool
+  PACKWIZ_URL: str
 map:
   - addons:rw
 environment:
