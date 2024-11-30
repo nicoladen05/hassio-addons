@@ -17,7 +17,7 @@ fi
 ####################
 
 #rm -rf /data
-ln -sf /addons/minecraft/data /data
+ln -sf /addons/minecraft/data /
 
 for SCRIPTS in /etc/cont-init.d/*; do
     [ -e "$SCRIPTS" ] || continue
