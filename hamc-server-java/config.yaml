@@ -11,6 +11,8 @@ ports:
   25565/tcp: "25565"
 ports_description:
   25565/tcp: Minecraft Server Port
+map:
+  - addon_config
 options:
   TYPE: VANILLA
   VERSION: LATEST
