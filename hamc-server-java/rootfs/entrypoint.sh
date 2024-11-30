@@ -16,6 +16,8 @@ fi
 # Starting scripts #
 ####################
 
+ln -s /data /addons/minecraft
+
 for SCRIPTS in /etc/cont-init.d/*; do
     [ -e "$SCRIPTS" ] || continue
     echo "$SCRIPTS: executing"
