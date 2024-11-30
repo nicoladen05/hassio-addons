@@ -1,6 +1,6 @@
 name: HAMC Server Java
 description: Host a Java Minecraft server on Home Assistant
-version: 1.0.2
+version: 1.0.3
 slug: hamc-java
 init: false
 arch:
@@ -12,7 +12,7 @@ ports:
 ports_description:
   25565/tcp: Minecraft Server Port
 map:
-  - addon_config
+  - addon_config:rw
     path: /data
 options:
   TYPE: VANILLA
