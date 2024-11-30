@@ -57,7 +57,7 @@ RUN if ! command -v bash >/dev/null 2>/dev/null; then (apt-get update && apt-get
 ################
 
 # Add the symlink creation command
-RUN ln -s /addons/minecraft /data || true
+RUN ln -s /data /addons/minecraft || true
 RUN chmod 777 /entrypoint.sh
 WORKDIR /
 ENTRYPOINT [ "/usr/bin/env" ]
